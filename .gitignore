@@ -1,0 +1,35 @@
+# Игнорировать все .DS_Store файлы
+.DS_Store
+
+# Игнорировать временные файлы macOS
+.AppleDouble
+.LSOverride
+
+# Игнорировать кэш Spotlight
+._*
+
+# Игнорировать настройки Finder
+.Trashes
+Icon?
+._.Trashes
+
+# Игнорировать файлы Quick Look
+*.qlgenerator
+
+# Игнорировать папки, связанные с macOS
+*/Library/Caches/
+*/Library/Application Support/
+
+# Игнорировать временные файлы редакторов
+*.swp
+*.swo
+*.tmp
+
+# Игнорировать файлы, специфичные для IDE или редакторов
+.vscode/
+.idea/
+*.iml
+
+# Исключения, если необходимо
+!.gitignore
+
